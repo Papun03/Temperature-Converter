@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url(Background.jpg);
+    color: #0d0d0d;
+    background-size: 1500px 800px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  header {
+    background-color: #ca8557;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    height: 60px;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 28px;
+  } 
+  header p {
+    margin-top: 5px;
+    font-size: 16px;
+    font-style: italic;
+  }
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding: 20px;
+  }
+  .converter {
+    background-color: rgb(134, 124, 124);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(3, 3, 3, 0.1);
+    padding: 40px;
+    width: 350px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #0d0d0d;
+    border-radius: 15px;
+  }
+  .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  } 
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  input[type="number"]:focus {
+    border-color: #0b0b0b;
+    outline: none;
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.3);
+  }
+  h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #050505;
+    font-weight: bolder;
+  }
+  @media (max-width: 600px) {
+    .converter {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    header h1 {
+      font-size: 22px;
+    }
+  
+    section {
+      height: auto;
+      padding: 10px;
+    }
+  }
+  
